@@ -14,3 +14,62 @@
             color: aquamarine;
             background-color: aqua;
         }
+        .flex-container div{
+            background-color: bisque;
+            border: 2px solid brown;
+            height: 100px;
+            width: 100px;
+            
+
+
+        }
+        .flex-container{
+            display: flex;
+            justify-content: flex-start;
+            /* flex-direction: column; */
+        }
+        .grid-container{
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns: 100px 100px 100px 100px;
+        }
+        /* .grid-container div{
+            background-color: blueviolet;
+            border: 2px solid plum;
+        } */
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: chartreuse;
+            text-align: center;
+        }
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: chocolate;
+            text-align: center;
+        }
+        .item3{
+            grid-column-start: 4;
+            background-color: peru;
+            text-align: center;
+        }
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: orchid;
+    text-align: center;
+}
+    @media (max-width:720px){
+        .navbar{
+            display: flex;
+            flex-direction: column;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+       
+        
+       
